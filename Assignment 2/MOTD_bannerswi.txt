@@ -1,0 +1,23 @@
+**********************************
+Only Authorised Users Allowed
+**********************************
+SWI(config)#banner?
+    motd Set Message of the Day banner
+SWI(config)#   banner Motd?
+LINE c banner-text c, where '\c' is a delimiting character
+SWI(config)# banner motd $ **************************************
+Enter text message. End with the character $
+        **********************************
+        Only Authorised Users Allowed
+        **********************************
+        $
+SWI(config)# exit
+SWI#     (To check)
+%SYS-5-CONFIG-I: Configured from console by console
+exit
+SWI con0 is now available
+Press return to get started
+**********************************
+**********************************
+Only Authorised Users Allowed
+**********************************

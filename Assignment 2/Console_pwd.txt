@@ -1,0 +1,23 @@
+SWI> en
+SWI# sh run
+    Building configuration
+    Current configuration! 1211 bbytes
+    !
+    Version 12.2
+    no service timestamps log datetime msec
+    no service timestamps debug datetime msec
+    no service password - encryption
+    !
+    hostname SWI
+    !
+    !
+    .
+    .
+    .
+    .
+    .
+    .
+    SWI# CONFIG T
+    Enter configuration commands, one per line. End with Ctrl+Z
+    SWI(config)# line con0
+    SWI(config_line)# password India@123
